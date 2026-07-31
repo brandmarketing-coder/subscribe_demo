@@ -71,9 +71,8 @@ export default function Home() {
           <div className="orbit orbit-two" />
           <img src="/assets/moringa-six.webp" alt="O'right 辣木洗手慕斯六瓶組" />
           <div className="price-orb">
-            <small>原價 <del>NT$780</del></small>
-            <strong><em>一罐只要</em><CountUp end={340} prefix="NT$" /></strong>
-            <span>六瓶組 NT$2,040</span>
+            <small>原價 NT$780</small>
+            <strong><em>平均一罐只要</em><CountUp end={340} prefix="NT$" /></strong>
           </div>
         </div>
       </section>
@@ -168,7 +167,7 @@ export default function Home() {
       <section className="testimonials-section" id="testimonials" aria-label="不同生活情境的洗手慕絲使用心得">
         <div className="testimonials-heading">
           <p className="section-index light">03　使用心得</p>
-          <h2>辣木洗手慕斯，木質調植萃香氣藏在泡沫裡，<br />等著您細細感受。</h2>
+          <h2>辣木洗手慕斯，<br />木質調植萃香氣藏在泡沫裡，<br />等著您細細感受。</h2>
         </div>
         <div className="testimonials-grid">
           <article className="testimonial-card">
